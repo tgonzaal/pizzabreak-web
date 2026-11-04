@@ -7,7 +7,7 @@
  *
  * Única configuración: cambia BASE por la dirección de tu GitHub Pages (con / al final).
  */
-var BASE = 'https://TU-USUARIO.github.io/pizzabreak-web/';
+var BASE = 'https://tgonzaal.github.io/pizzabreak-web/';
 
 function doGet(e) {
   var params = (e && e.parameter) || {};

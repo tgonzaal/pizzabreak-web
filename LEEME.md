@@ -31,11 +31,11 @@ El sitio vive en **GitHub Pages**. La web app de **Apps Script** (`appscript/Cod
 1. En github.com, crea un repositorio **público** llamado `pizzabreak-web`.
 2. Sube esta carpeta, por ejemplo:
    ```bash
-   git remote add origin https://github.com/TU-USUARIO/pizzabreak-web.git
+   git remote add origin https://github.com/tgonzaal/pizzabreak-web.git
    git push -u origin main
    ```
 3. En el repo ve a **Settings → Pages → Branch: `main` / `(root)` → Save**.
-4. En 1 o 2 minutos el sitio queda en `https://TU-USUARIO.github.io/pizzabreak-web/`. Este link ya sirve para probar el responsive en el celular.
+4. En 1 o 2 minutos el sitio queda en `https://tgonzaal.github.io/pizzabreak-web/`. Este link ya sirve para probar el responsive en el celular.
 
 **2. Apps Script**
 1. Entra a script.google.com y crea un **Proyecto nuevo**.
