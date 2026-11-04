@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carta y pedidos · Pizza Break</title>
+  <meta name="description" content="Pide online en Pizza Break: pizzas de masa artesanal, sándwiches, burgers, tex-mex y más. Delivery, retiro o reserva en Los Ángeles.">
+  <meta name="theme-color" content="#ea3237">
+  <link rel="icon" href="assets/break-logo-rojo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=2">
+</head>
+<body class="carta-page">
+
+  <!-- ============ HEADER DE PEDIDO ============ -->
+  <header class="header header--rojo">
+    <div class="contenedor">
+      <a href="index.html" class="logo" aria-label="Volver al inicio"><img src="assets/break-logo-blanco.svg" alt="Break"></a>
+
+      <button class="selector-local" id="btn-local" aria-haspopup="dialog">
+        <span class="selector-local__pin"><span data-icon="pin"></span></span>
+        <span style="min-width:0"><small id="sel-modo">Pidiendo en</small><strong id="sel-local">Elige un local</strong></span>
+        <span class="chev"><span data-icon="chevAbajo"></span></span>
+      </button>
+
+
+      <div class="header__acciones">
+        <label class="busqueda">
+          <span class="sr-only">Buscar en la carta</span>
+          <span data-icon="buscar"></span>
+          <input type="search" id="buscar" placeholder="Buscar pizzas, sándwiches…">
+        </label>
+        <button class="icon-btn btn-carrito" id="btn-carrito" aria-label="Ver pedido"><span data-icon="carrito"></span><span class="badge" id="badge" hidden>0</span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Categorías en chips (móvil / tablet) -->
+  <nav class="cats-chips" aria-label="Categorías"><div class="contenedor" id="chips"></div></nav>
+
+  <!-- ============ BANNER DEL LOCAL ============ -->
+  <section class="banner-local pizarra-bg">
+    <div class="banner-local__pz" id="banner-pz" aria-hidden="true"></div>
+    <div class="contenedor">
+      <div>
+        <h1 id="local-nombre"></h1>
+        <div class="banner-local__meta" id="local-meta"></div>
+      </div>
+      <div class="banner-local__info" id="local-info"></div>
+    </div>
+  </section>
+  <div class="mantel" aria-hidden="true"></div>
+
+  <!-- ============ CARTA ============ -->
+  <div class="contenedor carta-layout">
+    <aside class="carta-cats" aria-label="Categorías">
+      <h2>Carta</h2>
+      <div id="lista-cats"></div>
+    </aside>
+
+    <main id="carta">
+      <div id="destacados-wrap">
+        <div class="cat-seccion__head"><h2>Destacados</h2></div>
+        <p class="cat-seccion__desc">Lo que más se pide en este local</p>
+        <div class="destacados" id="destacados"></div>
+      </div>
+      <div id="secciones"></div>
+    </main>
+
+    <aside class="carrito" aria-label="Tu pedido">
+      <div class="carrito__head">
+        <h2>Tu pedido <button class="btn btn--fantasma btn--sm" id="vaciar" hidden>Vaciar</button></h2>
+        <div class="segmento" role="group" aria-label="Tipo de pedido" id="seg-carrito">
+          <button data-modo="delivery" aria-pressed="true"><span data-icon="moto"></span> Delivery</button>
+          <button data-modo="retiro" aria-pressed="false"><span data-icon="bolsa"></span> Retiro</button>
+          <button data-modo="reserva" aria-pressed="false"><span data-icon="calendario"></span> Reservar</button>
+        </div>
+      </div>
+      <div class="carrito__items" id="carrito-items"></div>
+      <div class="carrito__pie" id="carrito-pie"></div>
+    </aside>
+  </div>
+
+  <!-- Barra de pedido flotante (móvil / tablet) -->
+  <div class="barra-pedido" id="barra-pedido" hidden>
+    <button class="btn btn--primario" id="btn-barra"><span class="cant" id="barra-cant">0</span><span>Ver mi pedido</span><strong id="barra-total">$0</strong></button>
+  </div>
+
+  <!-- ============ MODAL DE PRODUCTO ============ -->
+  <div class="overlay" id="ov-producto" role="dialog" aria-modal="true" aria-labelledby="mp-titulo">
+    <form class="modal" id="form-producto">
+      <div class="modal__media" id="mp-media"></div>
+      <div class="modal__cuerpo">
+        <button type="button" class="icon-btn modal__cerrar" data-cerrar aria-label="Cerrar"><span data-icon="x"></span></button>
+        <div class="modal__scroll" id="mp-scroll"></div>
+        <div class="modal__pie">
+          <div class="stepper stepper--lg" aria-label="Cantidad">
+            <button type="button" id="mp-menos" aria-label="Quitar uno"><span data-icon="menos"></span></button>
+            <span id="mp-cant">1</span>
+            <button type="button" id="mp-mas" aria-label="Agregar uno"><span data-icon="mas"></span></button>
+          </div>
+          <button type="submit" class="btn btn--primario btn--lg" id="mp-agregar"><span>Agregar</span><strong id="mp-total">$0</strong></button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- ============ MODAL ELEGIR LOCAL ============ -->
+  <div class="overlay" id="ov-local" role="dialog" aria-modal="true" aria-labelledby="ml-titulo">
+    <div class="modal" style="grid-template-columns:1fr;width:min(520px,100%);grid-template-rows:none;height:auto">
+      <div class="modal__cuerpo">
+        <button type="button" class="icon-btn modal__cerrar" data-cerrar aria-label="Cerrar"><span data-icon="x"></span></button>
+        <div class="modal__scroll" style="padding-bottom:28px">
+          <h2 id="ml-titulo" style="font-size:32px">¿Dónde pides?</h2>
+          <p class="modal__desc">Cada local tiene su propia carta y precios. Tu pedido se guarda por local.</p>
+          <div style="height:16px"></div>
+          <div class="lista-locales" id="ml-lista"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ PANEL: CARRITO MÓVIL + CHECKOUT ============ -->
+  <div class="velo" id="velo"></div>
+  <aside class="panel" id="panel" aria-label="Pedido" aria-hidden="true">
+    <div class="panel__head">
+      <button class="icon-btn" id="panel-atras" aria-label="Volver" hidden><span data-icon="chevIzq"></span></button>
+      <h2 id="panel-titulo">Tu pedido</h2>
+      <button class="icon-btn" data-cerrar-panel aria-label="Cerrar"><span data-icon="x"></span></button>
+    </div>
+    <div class="panel__cuerpo" id="panel-cuerpo"></div>
+    <div class="panel__pie" id="panel-pie"></div>
+  </aside>
+
+  <script src="js/data.js?v=2"></script>
+  <script src="js/illustrations.js?v=2"></script>
+  <script src="js/common.js?v=2"></script>
+  <script src="js/carta.js?v=2"></script>
+</body>
+</html>

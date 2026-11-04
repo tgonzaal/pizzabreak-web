@@ -1,0 +1,2740 @@
+{
+  "local": "oriente",
+  "moneda": "CLP",
+  "actualizado": "2026-11-04",
+  "categorias": [
+    {
+      "id": "promociones",
+      "nombre": "Promociones",
+      "descripcion": "Combos para compartir",
+      "icono": "promo",
+      "productos": [
+        {
+          "id": "pr-combo-familiar",
+          "nombre": "Combo Familiar",
+          "descripcion": "Pizza familiar a elección + sándwich de pollo + porción de papas fritas + bebida de 1,5 L",
+          "precio": 22990,
+          "opciones": [
+            "pizza-unica",
+            "bebida-15"
+          ],
+          "tags": [
+            "Para 4"
+          ],
+          "destacado": true,
+          "ilustracion": "combo",
+          "toppings": [],
+          "imagen": "assets/productos/promo-combo-familiar.webp"
+        }
+      ]
+    },
+    {
+      "id": "pizzas-especialidades",
+      "nombre": "Pizzas Especialidades",
+      "descripcion": "Familiar (30–35 cm) · XL (40–45 cm) · Masa artesanal",
+      "icono": "pizza",
+      "productos": [
+        {
+          "id": "pz-break",
+          "nombre": "Break",
+          "descripcion": "Carne, jamón, tomate, salame, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [
+            "La más pedida"
+          ],
+          "destacado": true,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Carne",
+            "jamón",
+            "tomate",
+            "salame",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-break.webp"
+        },
+        {
+          "id": "pz-tocineta",
+          "nombre": "Tocineta",
+          "descripcion": "Champiñón, pimentón, tocino, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Champiñón",
+            "pimentón",
+            "tocino",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-tocineta.webp"
+        },
+        {
+          "id": "pz-mechada-crema",
+          "nombre": "Mechada Crema",
+          "descripcion": "Base crema, mechada, queso, ciboulette",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Base crema",
+            "mechada",
+            "queso",
+            "ciboulette"
+          ],
+          "imagen": "assets/productos/pizza-mechada-creme.webp"
+        },
+        {
+          "id": "pz-semi-crack",
+          "nombre": "Semi Crack",
+          "descripcion": "Champiñón, carne, aceituna, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Champiñón",
+            "carne",
+            "aceituna",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-semi-crack.webp"
+        },
+        {
+          "id": "pz-pollo-bbq",
+          "nombre": "Pollo BBQ",
+          "descripcion": "Pollo BBQ, queso, tocino, salsa BBQ",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Pollo BBQ",
+            "queso",
+            "tocino",
+            "salsa BBQ"
+          ],
+          "imagen": "assets/productos/pizza-pollo-bbq.webp"
+        },
+        {
+          "id": "pz-camaron",
+          "nombre": "Camarón",
+          "descripcion": "Camarones, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Camarones",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-camarones.webp"
+        },
+        {
+          "id": "pz-carnivora",
+          "nombre": "Carnívora",
+          "descripcion": "Carne, pollo, queso, choricillo",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Carne",
+            "pollo",
+            "queso",
+            "choricillo"
+          ],
+          "imagen": "assets/productos/pizza-carnivora.webp"
+        },
+        {
+          "id": "pz-bendicion",
+          "nombre": "Bendición",
+          "descripcion": "Champiñón, pollo, tocino, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Champiñón",
+            "pollo",
+            "tocino",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-bendicion.webp"
+        },
+        {
+          "id": "pz-mechada-tocino",
+          "nombre": "Mechada Tocino",
+          "descripcion": "Mechada, queso, tocino, aceituna",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Mechada",
+            "queso",
+            "tocino",
+            "aceituna"
+          ],
+          "imagen": "assets/productos/pizza-mechada-tocino.webp"
+        },
+        {
+          "id": "pz-combi",
+          "nombre": "Combi",
+          "descripcion": "Carne, pepperoni, aceituna, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Carne",
+            "pepperoni",
+            "aceituna",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-combi.webp"
+        },
+        {
+          "id": "pz-austin",
+          "nombre": "Austin",
+          "descripcion": "Champiñón, pollo, queso, pimentón",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Champiñón",
+            "pollo",
+            "queso",
+            "pimentón"
+          ],
+          "imagen": "assets/productos/pizza-austin.webp"
+        },
+        {
+          "id": "pz-3-quesos",
+          "nombre": "3 Quesos",
+          "descripcion": "Cheddar, gauda, mantecoso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12990
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 15990
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Cheddar",
+            "gauda",
+            "mantecoso"
+          ],
+          "imagen": "assets/productos/pizza-tres-quesos.webp"
+        }
+      ]
+    },
+    {
+      "id": "pizzas-clasicas",
+      "nombre": "Pizzas Clásicas",
+      "descripcion": "Familiar (30–35 cm) · XL (40–45 cm) · Masa artesanal",
+      "icono": "pizza",
+      "productos": [
+        {
+          "id": "pz-napolitana",
+          "nombre": "Napolitana",
+          "descripcion": "Jamón, tomate, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Jamón",
+            "tomate",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-napolitana.webp"
+        },
+        {
+          "id": "pz-salame",
+          "nombre": "Salame",
+          "descripcion": "Salame, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Salame",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-salame.webp"
+        },
+        {
+          "id": "pz-hawaiana",
+          "nombre": "Hawaiana",
+          "descripcion": "Piña, jamón, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Piña",
+            "jamón",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-hawaiana.webp"
+        },
+        {
+          "id": "pz-pepperoni",
+          "nombre": "Pepperoni",
+          "descripcion": "Pepperoni, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Pepperoni",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-pepperoni.webp"
+        },
+        {
+          "id": "pz-mexicana",
+          "nombre": "Mexicana",
+          "descripcion": "Pepperoni, morrón, merkén, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Pepperoni",
+            "morrón",
+            "merkén",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-mexicana.webp"
+        },
+        {
+          "id": "pz-carne",
+          "nombre": "Carne",
+          "descripcion": "Carne, tomate, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Carne",
+            "tomate",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-carne.webp"
+        },
+        {
+          "id": "pz-pollo-maiz",
+          "nombre": "Pollo Maíz",
+          "descripcion": "Pollo, maíz, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Pollo",
+            "maíz",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-pollo.webp"
+        },
+        {
+          "id": "pz-margarita",
+          "nombre": "Margarita",
+          "descripcion": "Albahaca, aceite de oliva, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [
+            "De temporada"
+          ],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Albahaca",
+            "aceite de oliva",
+            "queso"
+          ]
+        },
+        {
+          "id": "pz-chilena",
+          "nombre": "Chilena",
+          "descripcion": "Aceituna, carne, cebolla, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Aceituna",
+            "carne",
+            "cebolla",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-chilena.webp"
+        },
+        {
+          "id": "pz-capricciosa",
+          "nombre": "Capricciosa",
+          "descripcion": "Aceituna, champiñón, jamón, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Aceituna",
+            "champiñón",
+            "jamón",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-capricciosa.webp"
+        },
+        {
+          "id": "pz-natura",
+          "nombre": "Natura",
+          "descripcion": "Aceituna, morrón, palmito, palta, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [
+            "Vegetariana"
+          ],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Aceituna",
+            "morrón",
+            "palmito",
+            "palta",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-natura.webp"
+        },
+        {
+          "id": "pz-vegetariana",
+          "nombre": "Vegetariana",
+          "descripcion": "Champiñón, cebolla, maíz, queso",
+          "variantes": [
+            {
+              "id": "familiar",
+              "nombre": "Familiar",
+              "detalle": "30–35 cm",
+              "precio": 12390
+            },
+            {
+              "id": "xl",
+              "nombre": "XL",
+              "detalle": "40–45 cm",
+              "precio": 14890
+            }
+          ],
+          "opciones": [
+            "agregados-pizza"
+          ],
+          "tags": [
+            "Vegetariana"
+          ],
+          "destacado": false,
+          "ilustracion": "pizza",
+          "toppings": [
+            "Champiñón",
+            "cebolla",
+            "maíz",
+            "queso"
+          ],
+          "imagen": "assets/productos/pizza-vegetariano.webp"
+        }
+      ]
+    },
+    {
+      "id": "sandwich",
+      "nombre": "Sándwiches",
+      "descripcion": "A: Pollo o Cerdo · B: Mechada o Vacuno",
+      "icono": "sandwich",
+      "productos": [
+        {
+          "id": "sw-tradicional",
+          "nombre": "Tradicional",
+          "descripcion": "Lechuga, tomate, mayonesa",
+          "variantes": [
+            {
+              "id": "a",
+              "nombre": "Pollo o Cerdo",
+              "precio": 6990
+            },
+            {
+              "id": "b",
+              "nombre": "Mechada o Vacuno",
+              "precio": 8990
+            }
+          ],
+          "opciones": [
+            "agregados-sandwich"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "sandwich",
+          "toppings": []
+        },
+        {
+          "id": "sw-italiano",
+          "nombre": "Italiano",
+          "descripcion": "Palta, tomate, mayonesa",
+          "variantes": [
+            {
+              "id": "a",
+              "nombre": "Pollo o Cerdo",
+              "precio": 7290
+            },
+            {
+              "id": "b",
+              "nombre": "Mechada o Vacuno",
+              "precio": 8990
+            }
+          ],
+          "opciones": [
+            "agregados-sandwich"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "sandwich",
+          "toppings": []
+        },
+        {
+          "id": "sw-chacarero",
+          "nombre": "Chacarero",
+          "descripcion": "Ají, poroto verde, tomate, mayonesa",
+          "variantes": [
+            {
+              "id": "a",
+              "nombre": "Pollo o Cerdo",
+              "precio": 7290
+            },
+            {
+              "id": "b",
+              "nombre": "Mechada o Vacuno",
+              "precio": 8990
+            }
+          ],
+          "opciones": [
+            "agregados-sandwich"
+          ],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "sandwich",
+          "toppings": []
+        },
+        {
+          "id": "sw-barros-luco",
+          "nombre": "Barros Luco",
+          "descripcion": "Carne, queso",
+          "variantes": [
+            {
+              "id": "a",
+              "nombre": "Pollo o Cerdo",
+              "precio": 6990
+            },
+            {
+              "id": "b",
+              "nombre": "Mechada o Vacuno",
+              "precio": 8590
+            }
+          ],
+          "opciones": [
+            "agregados-sandwich"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "sandwich",
+          "toppings": []
+        },
+        {
+          "id": "sw-break",
+          "nombre": "Break",
+          "descripcion": "Huevo frito, cebolla, tomate, queso, tocino, mayonesa",
+          "variantes": [
+            {
+              "id": "a",
+              "nombre": "Pollo o Cerdo",
+              "precio": 9490
+            },
+            {
+              "id": "b",
+              "nombre": "Mechada o Vacuno",
+              "precio": 11890
+            }
+          ],
+          "opciones": [
+            "agregados-sandwich"
+          ],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "sandwich",
+          "toppings": [],
+          "imagen": "assets/productos/sandwich-pollo-break.webp"
+        },
+        {
+          "id": "sw-campestre",
+          "nombre": "Campestre",
+          "descripcion": "Champiñón, lechuga, palta laminada, tomate, mayonesa al ajo",
+          "variantes": [
+            {
+              "id": "a",
+              "nombre": "Pollo o Cerdo",
+              "precio": 9490
+            },
+            {
+              "id": "b",
+              "nombre": "Mechada o Vacuno",
+              "precio": 11890
+            }
+          ],
+          "opciones": [
+            "agregados-sandwich"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "sandwich",
+          "toppings": [],
+          "imagen": "assets/productos/sandwich-mechada-campestre.webp"
+        },
+        {
+          "id": "sw-vegetariano",
+          "nombre": "Vegetariano",
+          "descripcion": "Champiñón, lechuga, tomate, mayonesa",
+          "precio": 7290,
+          "opciones": [
+            "agregados-sandwich"
+          ],
+          "tags": [
+            "Vegetariano"
+          ],
+          "destacado": false,
+          "ilustracion": "sandwich",
+          "toppings": []
+        },
+        {
+          "id": "sw-vegetariano-campestre",
+          "nombre": "Vegetariano Campestre",
+          "descripcion": "Champiñón, lechuga, palta laminada, tomate, mayonesa al ajo",
+          "precio": 9490,
+          "opciones": [
+            "agregados-sandwich"
+          ],
+          "tags": [
+            "Vegetariano"
+          ],
+          "destacado": false,
+          "ilustracion": "sandwich",
+          "toppings": []
+        }
+      ]
+    },
+    {
+      "id": "burgers",
+      "nombre": "Hamburguesas",
+      "descripcion": "Hamburguesa casera de 400 g",
+      "icono": "burger",
+      "productos": [
+        {
+          "id": "bg-break",
+          "nombre": "Break",
+          "descripcion": "Hamburguesa 400 g, queso, huevo frito, tomate, tocino, cebolla, mayonesa",
+          "precio": 11990,
+          "opciones": [
+            "agregados-burger"
+          ],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "burger",
+          "toppings": []
+        },
+        {
+          "id": "bg-doble",
+          "nombre": "Doble",
+          "descripcion": "Doble hamburguesa 400 g, queso cheddar, pepinillo, lechuga, mayonesa",
+          "precio": 11990,
+          "opciones": [
+            "agregados-burger"
+          ],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "burger",
+          "toppings": []
+        },
+        {
+          "id": "bg-campestre",
+          "nombre": "Campestre",
+          "descripcion": "Hamburguesa 400 g, champiñón salteado, palta laminada, lechuga, tomate, mayonesa",
+          "precio": 11990,
+          "opciones": [
+            "agregados-burger"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "burger",
+          "toppings": []
+        },
+        {
+          "id": "bg-queso-tocino",
+          "nombre": "Queso Tocino",
+          "descripcion": "Hamburguesa 400 g, queso, tocino, cebolla, mayonesa",
+          "precio": 10990,
+          "opciones": [
+            "agregados-burger"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "burger",
+          "toppings": []
+        },
+        {
+          "id": "bg-mexicana",
+          "nombre": "Mexicana",
+          "descripcion": "Hamburguesa 400 g, guacamole, queso, pimentón salteado, ají jalapeño, mayonesa",
+          "precio": 10990,
+          "opciones": [
+            "agregados-burger"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "burger",
+          "toppings": []
+        },
+        {
+          "id": "bg-italiana",
+          "nombre": "Italiana",
+          "descripcion": "Hamburguesa 400 g, tomate, palta, mayonesa",
+          "precio": 9190,
+          "opciones": [
+            "agregados-burger"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "burger",
+          "toppings": []
+        },
+        {
+          "id": "bg-tradicional",
+          "nombre": "Tradicional",
+          "descripcion": "Hamburguesa 400 g, lechuga, tomate, pepinillo, mayonesa",
+          "precio": 9190,
+          "opciones": [
+            "agregados-burger"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "burger",
+          "toppings": []
+        },
+        {
+          "id": "bg-vegana",
+          "nombre": "Vegana",
+          "descripcion": "Hamburguesa de carne de soya, tomate, lechuga, NotMayo",
+          "precio": 9190,
+          "opciones": [
+            "agregados-burger"
+          ],
+          "tags": [
+            "Vegana"
+          ],
+          "destacado": false,
+          "ilustracion": "burger",
+          "toppings": []
+        }
+      ]
+    },
+    {
+      "id": "texmex",
+      "nombre": "Tex-Mex",
+      "descripcion": "Incluye 2 salsas en cada preparación",
+      "icono": "burrito",
+      "productos": [
+        {
+          "id": "mx-burrito-vacuno",
+          "nombre": "Burrito Vacuno",
+          "descripcion": "Base de vacuno + 3 ingredientes y 2 salsas",
+          "precio": 7390,
+          "opciones": [
+            "ingredientes-mex",
+            "salsas-mex"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "burrito",
+          "toppings": []
+        },
+        {
+          "id": "mx-burrito-mixto",
+          "nombre": "Burrito Mixto",
+          "descripcion": "Pollo y vacuno + 3 ingredientes y 2 salsas",
+          "precio": 7290,
+          "opciones": [
+            "ingredientes-mex",
+            "salsas-mex"
+          ],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "burrito",
+          "toppings": []
+        },
+        {
+          "id": "mx-burrito-pollo",
+          "nombre": "Burrito Pollo",
+          "descripcion": "Base de pollo + 3 ingredientes y 2 salsas",
+          "precio": 6590,
+          "opciones": [
+            "ingredientes-mex",
+            "salsas-mex"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "burrito",
+          "toppings": []
+        },
+        {
+          "id": "mx-burrito-vegetariano",
+          "nombre": "Burrito Vegetariano",
+          "descripcion": "4 ingredientes + 2 salsas",
+          "precio": 6590,
+          "opciones": [
+            "ingredientes-mex4",
+            "salsas-mex"
+          ],
+          "tags": [
+            "Vegetariano"
+          ],
+          "destacado": false,
+          "ilustracion": "burrito",
+          "toppings": []
+        },
+        {
+          "id": "mx-tacos-mexicanos",
+          "nombre": "Tacos Mexicanos",
+          "descripcion": "1 taco pollo, 1 taco vacuno, salsa picante, salsa ranch, 4 ingredientes a elección",
+          "precio": 7190,
+          "opciones": [
+            "ingredientes-mex4"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "taco",
+          "toppings": []
+        }
+      ]
+    },
+    {
+      "id": "compartir",
+      "nombre": "Para Compartir",
+      "descripcion": "Quesadillas, tablas y chorrillana",
+      "icono": "fries",
+      "productos": [
+        {
+          "id": "cp-quesadilla-la-brutal",
+          "nombre": "Quesadilla La Brutal",
+          "descripcion": "8 porciones con maíz, pimentón salteado, queso y vacuno",
+          "precio": 8990,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "quesadilla",
+          "toppings": []
+        },
+        {
+          "id": "cp-quesadilla-mediterranea",
+          "nombre": "Quesadilla Mediterránea",
+          "descripcion": "8 porciones con aceituna, pimentón salteado y queso",
+          "precio": 7990,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "quesadilla",
+          "toppings": []
+        },
+        {
+          "id": "cp-quesadilla-la-chingada",
+          "nombre": "Quesadilla La Chingada",
+          "descripcion": "8 porciones con pollo, maíz y aceituna",
+          "precio": 8990,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "quesadilla",
+          "toppings": []
+        },
+        {
+          "id": "cp-quesadilla-campestre",
+          "nombre": "Quesadilla Campestre",
+          "descripcion": "8 porciones con champiñón, maíz y queso",
+          "precio": 7990,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "quesadilla",
+          "toppings": []
+        },
+        {
+          "id": "cp-tabla-queso-tocino",
+          "nombre": "Tabla Queso Tocino",
+          "descripcion": "Pollo acompañado de tocino y cebolla salteados cubiertos por queso cheddar fundido y huevos fritos sobre una base de papas fritas",
+          "precio": 14490,
+          "opciones": [],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "fries",
+          "toppings": []
+        },
+        {
+          "id": "cp-chorrillana-resto",
+          "nombre": "Chorrillana Resto",
+          "descripcion": "Carne de vacuno salteada con choricillo español y cebolla caramelizada cubierta por huevo frito, sobre una base de papas fritas",
+          "precio": 15490,
+          "opciones": [],
+          "tags": [],
+          "destacado": true,
+          "ilustracion": "fries",
+          "toppings": []
+        },
+        {
+          "id": "cp-tabla-mar-y-tierra",
+          "nombre": "Tabla Mar y Tierra",
+          "descripcion": "Camarón salteado en salsa blanca con champiñón y pimentón, acompañado de carne de vacuno sobre una base de papas fritas",
+          "precio": 17990,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "fries",
+          "toppings": []
+        },
+        {
+          "id": "cp-papas-fritas",
+          "nombre": "Papas Fritas",
+          "descripcion": "Porción de 400 g",
+          "precio": 3290,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "fries",
+          "toppings": []
+        }
+      ]
+    },
+    {
+      "id": "ninos",
+      "nombre": "Menú Niños",
+      "descripcion": "Para los más chicos",
+      "icono": "nuggets",
+      "productos": [
+        {
+          "id": "kd-menu-ninos",
+          "nombre": "Menú Niños",
+          "descripcion": "Porción de 400 g de papas fritas y nuggets de pollo",
+          "precio": 6490,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "nuggets",
+          "toppings": []
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Para Beber",
+      "descripcion": "Bebidas, jugos y mocktails",
+      "icono": "can",
+      "productos": [
+        {
+          "id": "bb-bebida-1-5-l",
+          "nombre": "Bebida 1,5 L",
+          "descripcion": "",
+          "precio": 3290,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "bottle",
+          "toppings": []
+        },
+        {
+          "id": "bb-bebida-lata",
+          "nombre": "Bebida Lata",
+          "descripcion": "350 ml",
+          "precio": 1990,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "can",
+          "toppings": []
+        },
+        {
+          "id": "bb-agua-mineral",
+          "nombre": "Agua Mineral",
+          "descripcion": "500 ml",
+          "precio": 1700,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "bottle",
+          "toppings": []
+        },
+        {
+          "id": "bb-limonada",
+          "nombre": "Limonada",
+          "descripcion": "",
+          "precio": 2690,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "juice",
+          "toppings": []
+        },
+        {
+          "id": "bb-jugo-natural",
+          "nombre": "Jugo Natural",
+          "descripcion": "",
+          "precio": 2590,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "juice",
+          "toppings": []
+        },
+        {
+          "id": "bb-monster",
+          "nombre": "Monster",
+          "descripcion": "",
+          "precio": 2790,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "can",
+          "toppings": []
+        },
+        {
+          "id": "bb-mojito-sin-alcohol",
+          "nombre": "Mojito sin Alcohol",
+          "descripcion": "Mocktail",
+          "precio": 4190,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "mocktail",
+          "toppings": []
+        },
+        {
+          "id": "bb-tropical-break",
+          "nombre": "Tropical Break",
+          "descripcion": "Clásico de Break: maracuyá, berries y Red Bull sabor tropical",
+          "precio": 4290,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "mocktail",
+          "toppings": []
+        }
+      ]
+    },
+    {
+      "id": "cafeteria",
+      "nombre": "Cafetería",
+      "descripcion": "Café y té",
+      "icono": "coffee",
+      "productos": [
+        {
+          "id": "cf-nescafe-grano-variedades",
+          "nombre": "Nescafé Grano Variedades",
+          "descripcion": "Espresso, Americano, Lungo, Capuccino, Capuccino vainilla, Grano mokacciono, Chocolate Kit-Kat",
+          "precio": 2590,
+          "opciones": [
+            "sabor-nescafe"
+          ],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "coffee",
+          "toppings": []
+        },
+        {
+          "id": "cf-infusion-adagio",
+          "nombre": "Infusión Adagio",
+          "descripcion": "",
+          "precio": 2590,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "coffee",
+          "toppings": []
+        },
+        {
+          "id": "cf-te-basilur",
+          "nombre": "Té Basilur",
+          "descripcion": "",
+          "precio": 1690,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "coffee",
+          "toppings": []
+        }
+      ]
+    },
+    {
+      "id": "bar",
+      "nombre": "Cocktails y Cervezas",
+      "descripcion": "Venta solo a mayores de 18 años, consumo en el local",
+      "icono": "beer",
+      "productos": [
+        {
+          "id": "bar-mojito-tradicional",
+          "nombre": "Mojito Tradicional",
+          "descripcion": "",
+          "precio": 5190,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "cocktail",
+          "toppings": []
+        },
+        {
+          "id": "bar-mojito-sabores",
+          "nombre": "Mojito Sabores",
+          "descripcion": "",
+          "precio": 5590,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "cocktail",
+          "toppings": []
+        },
+        {
+          "id": "bar-mojito-ramazzotti",
+          "nombre": "Mojito Ramazzotti",
+          "descripcion": "",
+          "precio": 5890,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "cocktail",
+          "toppings": []
+        },
+        {
+          "id": "bar-tropical-gin",
+          "nombre": "Tropical Gin",
+          "descripcion": "",
+          "precio": 6590,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "cocktail",
+          "toppings": []
+        },
+        {
+          "id": "bar-ramazzotti-spritz",
+          "nombre": "Ramazzotti Spritz",
+          "descripcion": "",
+          "precio": 6590,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "cocktail",
+          "toppings": []
+        },
+        {
+          "id": "bar-mistral-nobel",
+          "nombre": "Mistral Nobel",
+          "descripcion": "",
+          "precio": 5790,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "cocktail",
+          "toppings": []
+        },
+        {
+          "id": "bar-kunstmann-torobayo",
+          "nombre": "Kunstmann Torobayo",
+          "descripcion": "",
+          "precio": 3400,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "beer",
+          "toppings": []
+        },
+        {
+          "id": "bar-corona",
+          "nombre": "Corona",
+          "descripcion": "",
+          "precio": 3000,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "beer",
+          "toppings": []
+        },
+        {
+          "id": "bar-heineken",
+          "nombre": "Heineken",
+          "descripcion": "",
+          "precio": 3000,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "beer",
+          "toppings": []
+        },
+        {
+          "id": "bar-heineken-0",
+          "nombre": "Heineken 0°",
+          "descripcion": "Sin alcohol",
+          "precio": 3000,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "beer",
+          "toppings": []
+        },
+        {
+          "id": "bar-base-michelada",
+          "nombre": "Base Michelada",
+          "descripcion": "",
+          "precio": 1000,
+          "opciones": [],
+          "tags": [],
+          "destacado": false,
+          "ilustracion": "mocktail",
+          "toppings": []
+        },
+        {
+          "id": "bar-shop-350-cc",
+          "nombre": "Shop 350 cc",
+          "descripcion": "Birra del Monte: Ámbar o Rubia del Bosque",
+          "precio": 3490,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "beer",
+          "toppings": []
+        },
+        {
+          "id": "bar-shop-500-cc",
+          "nombre": "Shop 500 cc",
+          "descripcion": "Birra del Monte: Ámbar o Rubia del Bosque",
+          "precio": 3990,
+          "opciones": [],
+          "tags": [
+            "+18",
+            "Solo consumo en local"
+          ],
+          "destacado": false,
+          "ilustracion": "beer",
+          "toppings": []
+        }
+      ]
+    }
+  ],
+  "gruposOpciones": [
+    {
+      "id": "agregados-pizza",
+      "nombre": "¿Quieres agregar algo más?",
+      "tipo": "multiple",
+      "min": 0,
+      "items": [
+        {
+          "id": "tomate",
+          "nombre": "Tomate",
+          "precio": 1000
+        },
+        {
+          "id": "maiz",
+          "nombre": "Maíz",
+          "precio": 1000
+        },
+        {
+          "id": "poroto-verde",
+          "nombre": "Poroto verde",
+          "precio": 1000
+        },
+        {
+          "id": "aceituna",
+          "nombre": "Aceituna",
+          "precio": 1000
+        },
+        {
+          "id": "crema",
+          "nombre": "Crema",
+          "precio": 1000
+        },
+        {
+          "id": "pepinillo",
+          "nombre": "Pepinillo",
+          "precio": 1000
+        },
+        {
+          "id": "cebolla",
+          "nombre": "Cebolla",
+          "precio": 1000
+        },
+        {
+          "id": "pimenton",
+          "nombre": "Pimentón",
+          "precio": 1300
+        },
+        {
+          "id": "pepperoni",
+          "nombre": "Pepperoni",
+          "precio": 1300
+        },
+        {
+          "id": "salame",
+          "nombre": "Salame",
+          "precio": 1300
+        },
+        {
+          "id": "choricillo",
+          "nombre": "Choricillo",
+          "precio": 1300
+        },
+        {
+          "id": "pina",
+          "nombre": "Piña",
+          "precio": 1300
+        },
+        {
+          "id": "queso",
+          "nombre": "Queso",
+          "precio": 1300
+        },
+        {
+          "id": "palta",
+          "nombre": "Palta",
+          "precio": 1300
+        },
+        {
+          "id": "champinon",
+          "nombre": "Champiñón",
+          "precio": 1300
+        },
+        {
+          "id": "tocino",
+          "nombre": "Tocino",
+          "precio": 1500
+        },
+        {
+          "id": "camaron",
+          "nombre": "Camarón",
+          "precio": 1500
+        },
+        {
+          "id": "palmito",
+          "nombre": "Palmito",
+          "precio": 1500
+        },
+        {
+          "id": "atun",
+          "nombre": "Atún",
+          "precio": 1500
+        },
+        {
+          "id": "carne",
+          "nombre": "Carne",
+          "precio": 1500
+        },
+        {
+          "id": "pollo",
+          "nombre": "Pollo",
+          "precio": 1500
+        }
+      ]
+    },
+    {
+      "id": "agregados-sandwich",
+      "nombre": "¿Quieres agregar algo más?",
+      "tipo": "multiple",
+      "min": 0,
+      "items": [
+        {
+          "id": "maiz",
+          "nombre": "Maíz",
+          "precio": 1000
+        },
+        {
+          "id": "poroto-verde",
+          "nombre": "Poroto verde",
+          "precio": 1000
+        },
+        {
+          "id": "aceituna",
+          "nombre": "Aceituna",
+          "precio": 1000
+        },
+        {
+          "id": "huevo-frito",
+          "nombre": "Huevo frito",
+          "precio": 1000
+        },
+        {
+          "id": "pepinillo",
+          "nombre": "Pepinillo",
+          "precio": 1000
+        },
+        {
+          "id": "cebolla",
+          "nombre": "Cebolla",
+          "precio": 1000
+        },
+        {
+          "id": "pimenton",
+          "nombre": "Pimentón",
+          "precio": 1300
+        },
+        {
+          "id": "tocino",
+          "nombre": "Tocino",
+          "precio": 1300
+        },
+        {
+          "id": "palmito",
+          "nombre": "Palmito",
+          "precio": 1300
+        },
+        {
+          "id": "queso",
+          "nombre": "Queso",
+          "precio": 1300
+        },
+        {
+          "id": "palta",
+          "nombre": "Palta",
+          "precio": 1300
+        },
+        {
+          "id": "champinon",
+          "nombre": "Champiñón",
+          "precio": 1300
+        },
+        {
+          "id": "doble-carne",
+          "nombre": "Doble carne",
+          "precio": 2000
+        }
+      ]
+    },
+    {
+      "id": "agregados-burger",
+      "nombre": "¿Quieres agregar algo más?",
+      "tipo": "multiple",
+      "min": 0,
+      "items": [
+        {
+          "id": "maiz",
+          "nombre": "Maíz",
+          "precio": 1000
+        },
+        {
+          "id": "poroto-verde",
+          "nombre": "Poroto verde",
+          "precio": 1000
+        },
+        {
+          "id": "aceituna",
+          "nombre": "Aceituna",
+          "precio": 1000
+        },
+        {
+          "id": "huevo-frito",
+          "nombre": "Huevo frito",
+          "precio": 1000
+        },
+        {
+          "id": "pepinillo",
+          "nombre": "Pepinillo",
+          "precio": 1000
+        },
+        {
+          "id": "cebolla",
+          "nombre": "Cebolla",
+          "precio": 1000
+        },
+        {
+          "id": "pimenton",
+          "nombre": "Pimentón",
+          "precio": 1300
+        },
+        {
+          "id": "tocino",
+          "nombre": "Tocino",
+          "precio": 1300
+        },
+        {
+          "id": "palmito",
+          "nombre": "Palmito",
+          "precio": 1300
+        },
+        {
+          "id": "queso",
+          "nombre": "Queso",
+          "precio": 1300
+        },
+        {
+          "id": "palta",
+          "nombre": "Palta",
+          "precio": 1300
+        },
+        {
+          "id": "champinon",
+          "nombre": "Champiñón",
+          "precio": 1300
+        },
+        {
+          "id": "doble-carne",
+          "nombre": "Doble carne",
+          "precio": 2600
+        }
+      ]
+    },
+    {
+      "id": "ingredientes-mex",
+      "nombre": "Elige 3 ingredientes",
+      "tipo": "multiple",
+      "min": 3,
+      "items": [
+        {
+          "id": "aceitunas",
+          "nombre": "Aceitunas",
+          "precio": 0
+        },
+        {
+          "id": "arroz",
+          "nombre": "Arroz",
+          "precio": 0
+        },
+        {
+          "id": "cebolla",
+          "nombre": "Cebolla",
+          "precio": 0
+        },
+        {
+          "id": "guacamole",
+          "nombre": "Guacamole",
+          "precio": 0
+        },
+        {
+          "id": "lechuga",
+          "nombre": "Lechuga",
+          "precio": 0
+        },
+        {
+          "id": "maiz",
+          "nombre": "Maíz",
+          "precio": 0
+        },
+        {
+          "id": "pepinillos",
+          "nombre": "Pepinillos",
+          "precio": 0
+        },
+        {
+          "id": "pimenton",
+          "nombre": "Pimentón",
+          "precio": 0
+        },
+        {
+          "id": "poroto-negro",
+          "nombre": "Poroto negro",
+          "precio": 0
+        },
+        {
+          "id": "queso",
+          "nombre": "Queso",
+          "precio": 0
+        },
+        {
+          "id": "champinon",
+          "nombre": "Champiñón",
+          "precio": 1000
+        },
+        {
+          "id": "palmito",
+          "nombre": "Palmito",
+          "precio": 1000
+        },
+        {
+          "id": "extra-carne",
+          "nombre": "Extra carne",
+          "precio": 2000
+        }
+      ],
+      "max": 5
+    },
+    {
+      "id": "ingredientes-mex4",
+      "nombre": "Elige 4 ingredientes",
+      "tipo": "multiple",
+      "min": 4,
+      "items": [
+        {
+          "id": "aceitunas",
+          "nombre": "Aceitunas",
+          "precio": 0
+        },
+        {
+          "id": "arroz",
+          "nombre": "Arroz",
+          "precio": 0
+        },
+        {
+          "id": "cebolla",
+          "nombre": "Cebolla",
+          "precio": 0
+        },
+        {
+          "id": "guacamole",
+          "nombre": "Guacamole",
+          "precio": 0
+        },
+        {
+          "id": "lechuga",
+          "nombre": "Lechuga",
+          "precio": 0
+        },
+        {
+          "id": "maiz",
+          "nombre": "Maíz",
+          "precio": 0
+        },
+        {
+          "id": "pepinillos",
+          "nombre": "Pepinillos",
+          "precio": 0
+        },
+        {
+          "id": "pimenton",
+          "nombre": "Pimentón",
+          "precio": 0
+        },
+        {
+          "id": "poroto-negro",
+          "nombre": "Poroto negro",
+          "precio": 0
+        },
+        {
+          "id": "queso",
+          "nombre": "Queso",
+          "precio": 0
+        },
+        {
+          "id": "champinon",
+          "nombre": "Champiñón",
+          "precio": 1000
+        },
+        {
+          "id": "palmito",
+          "nombre": "Palmito",
+          "precio": 1000
+        }
+      ],
+      "max": 6
+    },
+    {
+      "id": "salsas-mex",
+      "nombre": "Elige 2 salsas (extra $500 c/u)",
+      "tipo": "multiple",
+      "min": 2,
+      "items": [
+        {
+          "id": "mayonesa-al-ajo",
+          "nombre": "Mayonesa al ajo",
+          "precio": 0
+        },
+        {
+          "id": "mayonesa-casera",
+          "nombre": "Mayonesa casera",
+          "precio": 0
+        },
+        {
+          "id": "salsa-ranch",
+          "nombre": "Salsa ranch",
+          "precio": 0
+        },
+        {
+          "id": "yogurt-cilantro",
+          "nombre": "Yogurt cilantro",
+          "precio": 0
+        },
+        {
+          "id": "yogurt-ciboulette",
+          "nombre": "Yogurt ciboulette",
+          "precio": 0
+        },
+        {
+          "id": "salsa-picante",
+          "nombre": "Salsa picante",
+          "precio": 0
+        },
+        {
+          "id": "salsa-bbq",
+          "nombre": "Salsa BBQ",
+          "precio": 0
+        }
+      ],
+      "max": 4
+    },
+    {
+      "id": "sabor-nescafe",
+      "nombre": "Variedad",
+      "tipo": "unica",
+      "min": 1,
+      "items": [
+        {
+          "id": "espresso",
+          "nombre": "Espresso",
+          "precio": 0
+        },
+        {
+          "id": "americano",
+          "nombre": "Americano",
+          "precio": 0
+        },
+        {
+          "id": "lungo",
+          "nombre": "Lungo",
+          "precio": 0
+        },
+        {
+          "id": "capuccino",
+          "nombre": "Capuccino",
+          "precio": 0
+        },
+        {
+          "id": "capuccino-vainilla",
+          "nombre": "Capuccino vainilla",
+          "precio": 0
+        },
+        {
+          "id": "grano-mokacciono",
+          "nombre": "Grano mokacciono",
+          "precio": 0
+        },
+        {
+          "id": "chocolate-kit-kat",
+          "nombre": "Chocolate Kit-Kat",
+          "precio": 0
+        }
+      ],
+      "max": 1
+    },
+    {
+      "id": "pizza-1",
+      "nombre": "Elige tu primera pizza",
+      "tipo": "unica",
+      "min": 1,
+      "max": 1,
+      "eligePizza": true,
+      "items": [
+        {
+          "id": "pz-break",
+          "nombre": "Break",
+          "precio": 0,
+          "detalle": "Carne, jamón, tomate, salame, queso",
+          "imagen": "assets/productos/pizza-break.webp"
+        },
+        {
+          "id": "pz-tocineta",
+          "nombre": "Tocineta",
+          "precio": 0,
+          "detalle": "Champiñón, pimentón, tocino, queso",
+          "imagen": "assets/productos/pizza-tocineta.webp"
+        },
+        {
+          "id": "pz-mechada-crema",
+          "nombre": "Mechada Crema",
+          "precio": 0,
+          "detalle": "Base crema, mechada, queso, ciboulette",
+          "imagen": "assets/productos/pizza-mechada-creme.webp"
+        },
+        {
+          "id": "pz-semi-crack",
+          "nombre": "Semi Crack",
+          "precio": 0,
+          "detalle": "Champiñón, carne, aceituna, queso",
+          "imagen": "assets/productos/pizza-semi-crack.webp"
+        },
+        {
+          "id": "pz-pollo-bbq",
+          "nombre": "Pollo BBQ",
+          "precio": 0,
+          "detalle": "Pollo BBQ, queso, tocino, salsa BBQ",
+          "imagen": "assets/productos/pizza-pollo-bbq.webp"
+        },
+        {
+          "id": "pz-camaron",
+          "nombre": "Camarón",
+          "precio": 0,
+          "detalle": "Camarones, queso",
+          "imagen": "assets/productos/pizza-camarones.webp"
+        },
+        {
+          "id": "pz-carnivora",
+          "nombre": "Carnívora",
+          "precio": 0,
+          "detalle": "Carne, pollo, queso, choricillo",
+          "imagen": "assets/productos/pizza-carnivora.webp"
+        },
+        {
+          "id": "pz-bendicion",
+          "nombre": "Bendición",
+          "precio": 0,
+          "detalle": "Champiñón, pollo, tocino, queso",
+          "imagen": "assets/productos/pizza-bendicion.webp"
+        },
+        {
+          "id": "pz-mechada-tocino",
+          "nombre": "Mechada Tocino",
+          "precio": 0,
+          "detalle": "Mechada, queso, tocino, aceituna",
+          "imagen": "assets/productos/pizza-mechada-tocino.webp"
+        },
+        {
+          "id": "pz-combi",
+          "nombre": "Combi",
+          "precio": 0,
+          "detalle": "Carne, pepperoni, aceituna, queso",
+          "imagen": "assets/productos/pizza-combi.webp"
+        },
+        {
+          "id": "pz-austin",
+          "nombre": "Austin",
+          "precio": 0,
+          "detalle": "Champiñón, pollo, queso, pimentón",
+          "imagen": "assets/productos/pizza-austin.webp"
+        },
+        {
+          "id": "pz-3-quesos",
+          "nombre": "3 Quesos",
+          "precio": 0,
+          "detalle": "Cheddar, gauda, mantecoso",
+          "imagen": "assets/productos/pizza-tres-quesos.webp"
+        },
+        {
+          "id": "pz-napolitana",
+          "nombre": "Napolitana",
+          "precio": 0,
+          "detalle": "Jamón, tomate, queso",
+          "imagen": "assets/productos/pizza-napolitana.webp"
+        },
+        {
+          "id": "pz-salame",
+          "nombre": "Salame",
+          "precio": 0,
+          "detalle": "Salame, queso",
+          "imagen": "assets/productos/pizza-salame.webp"
+        },
+        {
+          "id": "pz-hawaiana",
+          "nombre": "Hawaiana",
+          "precio": 0,
+          "detalle": "Piña, jamón, queso",
+          "imagen": "assets/productos/pizza-hawaiana.webp"
+        },
+        {
+          "id": "pz-pepperoni",
+          "nombre": "Pepperoni",
+          "precio": 0,
+          "detalle": "Pepperoni, queso",
+          "imagen": "assets/productos/pizza-pepperoni.webp"
+        },
+        {
+          "id": "pz-mexicana",
+          "nombre": "Mexicana",
+          "precio": 0,
+          "detalle": "Pepperoni, morrón, merkén, queso",
+          "imagen": "assets/productos/pizza-mexicana.webp"
+        },
+        {
+          "id": "pz-carne",
+          "nombre": "Carne",
+          "precio": 0,
+          "detalle": "Carne, tomate, queso",
+          "imagen": "assets/productos/pizza-carne.webp"
+        },
+        {
+          "id": "pz-pollo-maiz",
+          "nombre": "Pollo Maíz",
+          "precio": 0,
+          "detalle": "Pollo, maíz, queso",
+          "imagen": "assets/productos/pizza-pollo.webp"
+        },
+        {
+          "id": "pz-margarita",
+          "nombre": "Margarita",
+          "precio": 0,
+          "detalle": "Albahaca, aceite de oliva, queso"
+        },
+        {
+          "id": "pz-chilena",
+          "nombre": "Chilena",
+          "precio": 0,
+          "detalle": "Aceituna, carne, cebolla, queso",
+          "imagen": "assets/productos/pizza-chilena.webp"
+        },
+        {
+          "id": "pz-capricciosa",
+          "nombre": "Capricciosa",
+          "precio": 0,
+          "detalle": "Aceituna, champiñón, jamón, queso",
+          "imagen": "assets/productos/pizza-capricciosa.webp"
+        },
+        {
+          "id": "pz-natura",
+          "nombre": "Natura",
+          "precio": 0,
+          "detalle": "Aceituna, morrón, palmito, palta, queso",
+          "imagen": "assets/productos/pizza-natura.webp"
+        },
+        {
+          "id": "pz-vegetariana",
+          "nombre": "Vegetariana",
+          "precio": 0,
+          "detalle": "Champiñón, cebolla, maíz, queso",
+          "imagen": "assets/productos/pizza-vegetariano.webp"
+        }
+      ]
+    },
+    {
+      "id": "pizza-2",
+      "nombre": "Elige tu segunda pizza",
+      "tipo": "unica",
+      "min": 1,
+      "max": 1,
+      "eligePizza": true,
+      "items": [
+        {
+          "id": "pz-break",
+          "nombre": "Break",
+          "precio": 0,
+          "detalle": "Carne, jamón, tomate, salame, queso",
+          "imagen": "assets/productos/pizza-break.webp"
+        },
+        {
+          "id": "pz-tocineta",
+          "nombre": "Tocineta",
+          "precio": 0,
+          "detalle": "Champiñón, pimentón, tocino, queso",
+          "imagen": "assets/productos/pizza-tocineta.webp"
+        },
+        {
+          "id": "pz-mechada-crema",
+          "nombre": "Mechada Crema",
+          "precio": 0,
+          "detalle": "Base crema, mechada, queso, ciboulette",
+          "imagen": "assets/productos/pizza-mechada-creme.webp"
+        },
+        {
+          "id": "pz-semi-crack",
+          "nombre": "Semi Crack",
+          "precio": 0,
+          "detalle": "Champiñón, carne, aceituna, queso",
+          "imagen": "assets/productos/pizza-semi-crack.webp"
+        },
+        {
+          "id": "pz-pollo-bbq",
+          "nombre": "Pollo BBQ",
+          "precio": 0,
+          "detalle": "Pollo BBQ, queso, tocino, salsa BBQ",
+          "imagen": "assets/productos/pizza-pollo-bbq.webp"
+        },
+        {
+          "id": "pz-camaron",
+          "nombre": "Camarón",
+          "precio": 0,
+          "detalle": "Camarones, queso",
+          "imagen": "assets/productos/pizza-camarones.webp"
+        },
+        {
+          "id": "pz-carnivora",
+          "nombre": "Carnívora",
+          "precio": 0,
+          "detalle": "Carne, pollo, queso, choricillo",
+          "imagen": "assets/productos/pizza-carnivora.webp"
+        },
+        {
+          "id": "pz-bendicion",
+          "nombre": "Bendición",
+          "precio": 0,
+          "detalle": "Champiñón, pollo, tocino, queso",
+          "imagen": "assets/productos/pizza-bendicion.webp"
+        },
+        {
+          "id": "pz-mechada-tocino",
+          "nombre": "Mechada Tocino",
+          "precio": 0,
+          "detalle": "Mechada, queso, tocino, aceituna",
+          "imagen": "assets/productos/pizza-mechada-tocino.webp"
+        },
+        {
+          "id": "pz-combi",
+          "nombre": "Combi",
+          "precio": 0,
+          "detalle": "Carne, pepperoni, aceituna, queso",
+          "imagen": "assets/productos/pizza-combi.webp"
+        },
+        {
+          "id": "pz-austin",
+          "nombre": "Austin",
+          "precio": 0,
+          "detalle": "Champiñón, pollo, queso, pimentón",
+          "imagen": "assets/productos/pizza-austin.webp"
+        },
+        {
+          "id": "pz-3-quesos",
+          "nombre": "3 Quesos",
+          "precio": 0,
+          "detalle": "Cheddar, gauda, mantecoso",
+          "imagen": "assets/productos/pizza-tres-quesos.webp"
+        },
+        {
+          "id": "pz-napolitana",
+          "nombre": "Napolitana",
+          "precio": 0,
+          "detalle": "Jamón, tomate, queso",
+          "imagen": "assets/productos/pizza-napolitana.webp"
+        },
+        {
+          "id": "pz-salame",
+          "nombre": "Salame",
+          "precio": 0,
+          "detalle": "Salame, queso",
+          "imagen": "assets/productos/pizza-salame.webp"
+        },
+        {
+          "id": "pz-hawaiana",
+          "nombre": "Hawaiana",
+          "precio": 0,
+          "detalle": "Piña, jamón, queso",
+          "imagen": "assets/productos/pizza-hawaiana.webp"
+        },
+        {
+          "id": "pz-pepperoni",
+          "nombre": "Pepperoni",
+          "precio": 0,
+          "detalle": "Pepperoni, queso",
+          "imagen": "assets/productos/pizza-pepperoni.webp"
+        },
+        {
+          "id": "pz-mexicana",
+          "nombre": "Mexicana",
+          "precio": 0,
+          "detalle": "Pepperoni, morrón, merkén, queso",
+          "imagen": "assets/productos/pizza-mexicana.webp"
+        },
+        {
+          "id": "pz-carne",
+          "nombre": "Carne",
+          "precio": 0,
+          "detalle": "Carne, tomate, queso",
+          "imagen": "assets/productos/pizza-carne.webp"
+        },
+        {
+          "id": "pz-pollo-maiz",
+          "nombre": "Pollo Maíz",
+          "precio": 0,
+          "detalle": "Pollo, maíz, queso",
+          "imagen": "assets/productos/pizza-pollo.webp"
+        },
+        {
+          "id": "pz-margarita",
+          "nombre": "Margarita",
+          "precio": 0,
+          "detalle": "Albahaca, aceite de oliva, queso"
+        },
+        {
+          "id": "pz-chilena",
+          "nombre": "Chilena",
+          "precio": 0,
+          "detalle": "Aceituna, carne, cebolla, queso",
+          "imagen": "assets/productos/pizza-chilena.webp"
+        },
+        {
+          "id": "pz-capricciosa",
+          "nombre": "Capricciosa",
+          "precio": 0,
+          "detalle": "Aceituna, champiñón, jamón, queso",
+          "imagen": "assets/productos/pizza-capricciosa.webp"
+        },
+        {
+          "id": "pz-natura",
+          "nombre": "Natura",
+          "precio": 0,
+          "detalle": "Aceituna, morrón, palmito, palta, queso",
+          "imagen": "assets/productos/pizza-natura.webp"
+        },
+        {
+          "id": "pz-vegetariana",
+          "nombre": "Vegetariana",
+          "precio": 0,
+          "detalle": "Champiñón, cebolla, maíz, queso",
+          "imagen": "assets/productos/pizza-vegetariano.webp"
+        }
+      ]
+    },
+    {
+      "id": "pizza-unica",
+      "nombre": "Elige tu pizza",
+      "tipo": "unica",
+      "min": 1,
+      "max": 1,
+      "eligePizza": true,
+      "items": [
+        {
+          "id": "pz-break",
+          "nombre": "Break",
+          "precio": 0,
+          "detalle": "Carne, jamón, tomate, salame, queso",
+          "imagen": "assets/productos/pizza-break.webp"
+        },
+        {
+          "id": "pz-tocineta",
+          "nombre": "Tocineta",
+          "precio": 0,
+          "detalle": "Champiñón, pimentón, tocino, queso",
+          "imagen": "assets/productos/pizza-tocineta.webp"
+        },
+        {
+          "id": "pz-mechada-crema",
+          "nombre": "Mechada Crema",
+          "precio": 0,
+          "detalle": "Base crema, mechada, queso, ciboulette",
+          "imagen": "assets/productos/pizza-mechada-creme.webp"
+        },
+        {
+          "id": "pz-semi-crack",
+          "nombre": "Semi Crack",
+          "precio": 0,
+          "detalle": "Champiñón, carne, aceituna, queso",
+          "imagen": "assets/productos/pizza-semi-crack.webp"
+        },
+        {
+          "id": "pz-pollo-bbq",
+          "nombre": "Pollo BBQ",
+          "precio": 0,
+          "detalle": "Pollo BBQ, queso, tocino, salsa BBQ",
+          "imagen": "assets/productos/pizza-pollo-bbq.webp"
+        },
+        {
+          "id": "pz-camaron",
+          "nombre": "Camarón",
+          "precio": 0,
+          "detalle": "Camarones, queso",
+          "imagen": "assets/productos/pizza-camarones.webp"
+        },
+        {
+          "id": "pz-carnivora",
+          "nombre": "Carnívora",
+          "precio": 0,
+          "detalle": "Carne, pollo, queso, choricillo",
+          "imagen": "assets/productos/pizza-carnivora.webp"
+        },
+        {
+          "id": "pz-bendicion",
+          "nombre": "Bendición",
+          "precio": 0,
+          "detalle": "Champiñón, pollo, tocino, queso",
+          "imagen": "assets/productos/pizza-bendicion.webp"
+        },
+        {
+          "id": "pz-mechada-tocino",
+          "nombre": "Mechada Tocino",
+          "precio": 0,
+          "detalle": "Mechada, queso, tocino, aceituna",
+          "imagen": "assets/productos/pizza-mechada-tocino.webp"
+        },
+        {
+          "id": "pz-combi",
+          "nombre": "Combi",
+          "precio": 0,
+          "detalle": "Carne, pepperoni, aceituna, queso",
+          "imagen": "assets/productos/pizza-combi.webp"
+        },
+        {
+          "id": "pz-austin",
+          "nombre": "Austin",
+          "precio": 0,
+          "detalle": "Champiñón, pollo, queso, pimentón",
+          "imagen": "assets/productos/pizza-austin.webp"
+        },
+        {
+          "id": "pz-3-quesos",
+          "nombre": "3 Quesos",
+          "precio": 0,
+          "detalle": "Cheddar, gauda, mantecoso",
+          "imagen": "assets/productos/pizza-tres-quesos.webp"
+        },
+        {
+          "id": "pz-napolitana",
+          "nombre": "Napolitana",
+          "precio": 0,
+          "detalle": "Jamón, tomate, queso",
+          "imagen": "assets/productos/pizza-napolitana.webp"
+        },
+        {
+          "id": "pz-salame",
+          "nombre": "Salame",
+          "precio": 0,
+          "detalle": "Salame, queso",
+          "imagen": "assets/productos/pizza-salame.webp"
+        },
+        {
+          "id": "pz-hawaiana",
+          "nombre": "Hawaiana",
+          "precio": 0,
+          "detalle": "Piña, jamón, queso",
+          "imagen": "assets/productos/pizza-hawaiana.webp"
+        },
+        {
+          "id": "pz-pepperoni",
+          "nombre": "Pepperoni",
+          "precio": 0,
+          "detalle": "Pepperoni, queso",
+          "imagen": "assets/productos/pizza-pepperoni.webp"
+        },
+        {
+          "id": "pz-mexicana",
+          "nombre": "Mexicana",
+          "precio": 0,
+          "detalle": "Pepperoni, morrón, merkén, queso",
+          "imagen": "assets/productos/pizza-mexicana.webp"
+        },
+        {
+          "id": "pz-carne",
+          "nombre": "Carne",
+          "precio": 0,
+          "detalle": "Carne, tomate, queso",
+          "imagen": "assets/productos/pizza-carne.webp"
+        },
+        {
+          "id": "pz-pollo-maiz",
+          "nombre": "Pollo Maíz",
+          "precio": 0,
+          "detalle": "Pollo, maíz, queso",
+          "imagen": "assets/productos/pizza-pollo.webp"
+        },
+        {
+          "id": "pz-margarita",
+          "nombre": "Margarita",
+          "precio": 0,
+          "detalle": "Albahaca, aceite de oliva, queso"
+        },
+        {
+          "id": "pz-chilena",
+          "nombre": "Chilena",
+          "precio": 0,
+          "detalle": "Aceituna, carne, cebolla, queso",
+          "imagen": "assets/productos/pizza-chilena.webp"
+        },
+        {
+          "id": "pz-capricciosa",
+          "nombre": "Capricciosa",
+          "precio": 0,
+          "detalle": "Aceituna, champiñón, jamón, queso",
+          "imagen": "assets/productos/pizza-capricciosa.webp"
+        },
+        {
+          "id": "pz-natura",
+          "nombre": "Natura",
+          "precio": 0,
+          "detalle": "Aceituna, morrón, palmito, palta, queso",
+          "imagen": "assets/productos/pizza-natura.webp"
+        },
+        {
+          "id": "pz-vegetariana",
+          "nombre": "Vegetariana",
+          "precio": 0,
+          "detalle": "Champiñón, cebolla, maíz, queso",
+          "imagen": "assets/productos/pizza-vegetariano.webp"
+        }
+      ]
+    },
+    {
+      "id": "mini-pizza",
+      "nombre": "Elige tu mini pizza",
+      "tipo": "unica",
+      "min": 1,
+      "max": 1,
+      "eligePizza": true,
+      "items": [
+        {
+          "id": "pz-napolitana",
+          "nombre": "Napolitana",
+          "precio": 0,
+          "detalle": "Jamón, tomate, queso",
+          "imagen": "assets/productos/pizza-napolitana.webp"
+        },
+        {
+          "id": "pz-salame",
+          "nombre": "Salame",
+          "precio": 0,
+          "detalle": "Salame, queso",
+          "imagen": "assets/productos/pizza-salame.webp"
+        },
+        {
+          "id": "pz-vegetariana",
+          "nombre": "Vegetariana",
+          "precio": 0,
+          "detalle": "Champiñón, cebolla, maíz, queso",
+          "imagen": "assets/productos/pizza-vegetariano.webp"
+        }
+      ]
+    },
+    {
+      "id": "bebida-15",
+      "nombre": "Bebida 1,5 L a elección",
+      "tipo": "unica",
+      "min": 1,
+      "max": 1,
+      "items": [
+        {
+          "id": "coca-cola",
+          "nombre": "Coca-Cola",
+          "precio": 0
+        },
+        {
+          "id": "coca-cola-sin-azucar",
+          "nombre": "Coca-Cola Sin Azúcar",
+          "precio": 0
+        },
+        {
+          "id": "fanta",
+          "nombre": "Fanta",
+          "precio": 0
+        },
+        {
+          "id": "sprite",
+          "nombre": "Sprite",
+          "precio": 0
+        }
+      ]
+    },
+    {
+      "id": "bebida-vaso",
+      "nombre": "Vaso de bebida",
+      "tipo": "unica",
+      "min": 1,
+      "max": 1,
+      "items": [
+        {
+          "id": "coca-cola",
+          "nombre": "Coca-Cola",
+          "precio": 0
+        },
+        {
+          "id": "coca-cola-sin-azucar",
+          "nombre": "Coca-Cola Sin Azúcar",
+          "precio": 0
+        },
+        {
+          "id": "fanta",
+          "nombre": "Fanta",
+          "precio": 0
+        },
+        {
+          "id": "sprite",
+          "nombre": "Sprite",
+          "precio": 0
+        }
+      ]
+    }
+  ]
+}

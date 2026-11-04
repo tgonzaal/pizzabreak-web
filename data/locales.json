@@ -1,0 +1,107 @@
+{
+  "locales": [
+    {
+      "id": "mendoza",
+      "nombre": "Break Mendoza",
+      "subtitulo": "El original, desde 2011",
+      "direccion": "Mendoza 109, Los Ángeles",
+      "telefono": "+56432312565",
+      "telefonoTexto": "(43) 231 2565",
+      "whatsapp": "+56981401258",
+      "whatsappTexto": "+56 9 8140 1258",
+      "email": "contacto@pizzabreak.cl",
+      "horario": [
+        {
+          "dias": "Lunes a sábado",
+          "abre": "10:00",
+          "cierra": "23:00"
+        },
+        {
+          "dias": "Domingo y festivos",
+          "abre": "12:00",
+          "cierra": "23:00"
+        }
+      ],
+      "servicios": [
+        "delivery",
+        "retiro",
+        "reserva"
+      ],
+      "tiempoDelivery": "35–45 min",
+      "tiempoRetiro": "20 min",
+      "costoDelivery": 2000,
+      "reserva": {
+        "anticipacionMin": 60,
+        "intervaloMin": 30,
+        "dias": 2
+      },
+      "carta": "data/carta-mendoza.json",
+      "mapa": "https://maps.google.com/?q=Mendoza+109+Los+Angeles+Chile"
+    },
+    {
+      "id": "oriente",
+      "nombre": "Resto Break",
+      "subtitulo": "Av. Oriente · Restobar",
+      "direccion": "Av. Oriente 1290, Los Ángeles",
+      "telefono": "+56432393044",
+      "telefonoTexto": "(43) 239 3044",
+      "whatsapp": "+56964824744",
+      "whatsappTexto": "+56 9 6482 4744",
+      "email": "contacto@pizzabreak.cl",
+      "horario": [
+        {
+          "dias": "Lunes a sábado",
+          "abre": "10:00",
+          "cierra": "23:00"
+        },
+        {
+          "dias": "Domingo y festivos",
+          "abre": "12:00",
+          "cierra": "23:00"
+        }
+      ],
+      "servicios": [
+        "delivery",
+        "retiro",
+        "reserva"
+      ],
+      "tiempoDelivery": "35–45 min",
+      "tiempoRetiro": "20 min",
+      "costoDelivery": 2000,
+      "reserva": {
+        "anticipacionMin": 60,
+        "intervaloMin": 30,
+        "dias": 2
+      },
+      "carta": "data/carta-oriente.json",
+      "mapa": "https://maps.google.com/?q=Avenida+Oriente+1290+Los+Angeles+Chile"
+    }
+  ],
+  "cafeterias": [
+    {
+      "nombre": "UST",
+      "direccion": "Mendoza 120, Los Ángeles",
+      "email": "cafeteriala@pizzabreak.cl"
+    },
+    {
+      "nombre": "IST",
+      "direccion": "Manuel Rodríguez 131, Los Ángeles",
+      "email": "cafeteriala@pizzabreak.cl"
+    },
+    {
+      "nombre": "UCSC",
+      "direccion": "Caupolicán 276, Los Ángeles",
+      "email": "cafeteriala@pizzabreak.cl"
+    },
+    {
+      "nombre": "UST",
+      "direccion": "Arturo Prat 825, Concepción",
+      "email": "cafeteriaccp@pizzabreak.cl"
+    }
+  ],
+  "redes": {
+    "instagram": "https://www.instagram.com/break_pizza",
+    "facebook": "https://www.facebook.com/PizzaBreak",
+    "whatsapp": "https://wa.me/56981401258"
+  }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pizza Break · Más que pizza · Los Ángeles</title>
+  <meta name="description" content="Pizzas de masa artesanal, sándwiches, burgers y tex-mex en Los Ángeles desde 2011. Pide en Break Mendoza 109 o Resto Break Av. Oriente 1290.">
+  <meta name="theme-color" content="#ea3237">
+  <link rel="icon" href="assets/break-logo-rojo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kaushan+Script&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=2">
+</head>
+<body>
+
+  <!-- ============ HEADER (rojo, logo blanco) ============ -->
+  <header class="header header--rojo">
+    <div class="contenedor">
+      <a href="index.html" class="logo" aria-label="Pizza Break, inicio"><img src="assets/break-logo-blanco.svg" alt="Break"></a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <div class="header__acciones">
+        <a href="#pedir" class="btn btn--blanco btn--sm">Pedir ahora</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ PASO 1: ¿DÓNDE QUIERES PEDIR? ============ -->
+    <section class="inicio pizarra-bg" id="pedir">
+      <div class="contenedor inicio__grid">
+        <div class="inicio__copy">
+          <h1>¿Dónde quieres pedir?</h1>
+          <p class="inicio__bajada">Elige tu local para ver su carta, precios y tiempos de entrega.</p>
+
+          <div class="tiendas" id="tiendas"><!-- generado por js/home.js --></div>
+          <p class="inicio__reserva"><span data-icon="calendario"></span><span>¿Vas más tarde? <strong>Reserva tu pizza</strong> y la tendremos lista a la hora que elijas.</span></p>
+
+        </div>
+        <div class="inicio__foto" aria-hidden="true">
+          <img src="assets/productos/pizza-break.webp" alt="">
+        </div>
+      </div>
+    </section>
+    <div class="mantel" aria-hidden="true"></div>
+
+    <!-- ============ LO MÁS PEDIDO ============ -->
+    <section class="seccion" id="mas-pedido">
+      <div class="contenedor">
+        <div class="seccion__head">
+          <div>
+            <span class="seccion__kicker">Recién salidas del horno</span>
+            <h2 class="seccion__titulo">Lo más pedido</h2>
+          </div>
+          <div class="carrusel-ctrl carrusel-ctrl--claro">
+            <button class="icon-btn" data-carrusel="-1" aria-label="Anterior"><span data-icon="chevIzq"></span></button>
+            <button class="icon-btn" data-carrusel="1" aria-label="Siguiente"><span data-icon="chevDer"></span></button>
+          </div>
+        </div>
+        <div class="fila-scroll" id="mas-pedido-lista"><!-- generado por js/home.js --></div>
+      </div>
+    </section>
+
+    <!-- ============ NOSOTROS: HISTORIA DE BREAK ============ -->
+    <section class="seccion historia-sec" id="nosotros">
+      <div class="contenedor historia">
+        <figure class="historia__foto">
+          <img src="assets/break-equipo.webp" alt="Los personajes de Break saludando con delantal rojo: Siempre es un buen momento para un Break">
+        </figure>
+        <div class="historia__texto">
+          <span class="seccion__kicker">Nuestra historia</span>
+          <h2 class="historia__titulo">Desde 2011 en Los Ángeles</h2>
+          <div class="historia__parrafos">
+            <p>Break nació con el sueño de crear más que un lugar para comer: un espacio para compartir con la familia y los amigos.</p>
+            <p>Desde el primer día apostamos por lo mismo: masa artesanal, base casera y un queso de receta exclusiva.</p>
+            <p>Gracias al cariño de nuestros clientes crecimos con banquetería, cafeterías, casinos, eventos, food truck y stand de pizzas. Hoy estamos en 2 locales en Los Ángeles y en cafeterías de universidades e institutos.</p>
+          </div>
+          <div class="historia__stats">
+            <div class="stat"><strong>+14</strong><span>años de trayectoria</span></div>
+            <div class="stat"><strong>2</strong><span>locales</span></div>
+            <div class="stat"><strong>4</strong><span>cafeterías</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICIOS GASTRONÓMICOS (bento) ============ -->
+    <section class="seccion servicios-sec" id="servicios">
+      <div class="contenedor">
+        <div class="seccion__head">
+          <div>
+            <span class="seccion__kicker">Más que pizza</span>
+            <h2 class="seccion__titulo">Servicios gastronómicos</h2>
+            <p class="seccion__bajada">Llevamos el sabor Break a tu evento, empresa o institución.</p>
+          </div>
+        </div>
+
+        <div class="bento">
+          <article class="bento__item bento__item--catering">
+            <div class="bento__txt">
+              <span class="bento__tag">Eventos</span>
+              <h3>Catering y banquetería</h3>
+              <p>Matrimonios, cumpleaños, reuniones y eventos de empresa. Pizzas, tablas y sándwiches para que tus invitados disfruten.</p>
+              <a class="btn btn--blanco" href="https://wa.me/56981401258?text=Hola%2C%20quiero%20cotizar%20un%20evento" target="_blank" rel="noopener"><span data-icon="whatsapp"></span> Cotizar mi evento</a>
+            </div>
+            <div class="bento__fotos" aria-hidden="true">
+              <img src="assets/productos/pizza-pepperoni.webp" alt="">
+              <img src="assets/productos/pizza-pollo-bbq.webp" alt="">
+              <img src="assets/productos/pizza-break.webp" alt="">
+            </div>
+          </article>
+
+          <article class="bento__item bento__item--foto bento__item--truck">
+            <img class="bento__bg" src="assets/servicio-foodtruck.webp" alt="Food truck de Break con su pizarra de pizzas, sándwiches y tacos" loading="lazy">
+            <div class="bento__txt">
+              <span class="bento__tag">Sobre ruedas</span>
+              <h3>Food truck y stand de pizzas</h3>
+              <p>Llevamos el horno a ferias, activaciones de marca y fiestas.</p>
+            </div>
+          </article>
+
+          <article class="bento__item bento__item--foto bento__item--cafes">
+            <img class="bento__bg" src="assets/servicio-cafeteria.webp" alt="Cafetería Break en una universidad, con estudiantes haciendo fila" loading="lazy">
+            <div class="bento__txt">
+              <span class="bento__tag">Casinos y cafeterías</span>
+              <h3>Cafeterías Break</h3>
+              <p>Administramos casinos y cafeterías en universidades, institutos y mutuales.</p>
+              <ul class="bento__cafes" id="cafeterias"><!-- generado por js/home.js --></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="seccion" id="contacto" style="padding-top:0">
+      <div class="contenedor">
+        <div class="cta-final pizarra-bg">
+          <div>
+            <h2>¿Prefieres pedir <em>por WhatsApp?</em></h2>
+            <p>Escríbele directo a tu local y te atendemos al tiro.</p>
+          </div>
+          <div class="cta-final__acciones">
+            <a href="#pedir" class="btn btn--primario btn--lg"><span data-icon="bolsa"></span> Pedir online</a>
+            <a href="https://wa.me/56981401258" class="btn btn--wsp btn--lg" target="_blank" rel="noopener"><span data-icon="whatsapp"></span> WhatsApp Mendoza</a>
+            <a href="https://wa.me/56964824744" class="btn btn--wsp btn--lg" target="_blank" rel="noopener"><span data-icon="whatsapp"></span> WhatsApp Av. Oriente</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer__grid">
+        <div>
+          <img class="logo-f" src="assets/break-logo-blanco.svg" alt="Break">
+          <p style="max-width:280px">Empresa angelina con más de 14 años en el rubro gastronómico. Pizzas, sándwiches, burgers y tex-mex de alta calidad.</p>
+          <div class="footer__redes">
+            <a href="https://www.instagram.com/break_pizza" target="_blank" rel="noopener" aria-label="Instagram"><span data-icon="instagram"></span></a>
+            <a href="https://www.facebook.com/PizzaBreak" target="_blank" rel="noopener" aria-label="Facebook"><span data-icon="facebook"></span></a>
+            <a href="https://wa.me/56981401258" target="_blank" rel="noopener" aria-label="WhatsApp"><span data-icon="whatsapp"></span></a>
+          </div>
+        </div>
+        <div>
+          <h4>Break Mendoza</h4>
+          <ul>
+            <li>Mendoza 109, Los Ángeles</li>
+            <li><a href="tel:+56432312565">(43) 231 2565</a></li>
+            <li><a href="https://wa.me/56981401258">+56 9 8140 1258</a></li>
+            <li><a href="carta.html?local=mendoza">Ver carta →</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Resto Break</h4>
+          <ul>
+            <li>Av. Oriente 1290, Los Ángeles</li>
+            <li><a href="tel:+56432393044">(43) 239 3044</a></li>
+            <li><a href="https://wa.me/56964824744">+56 9 6482 4744</a></li>
+            <li><a href="carta.html?local=oriente">Ver carta →</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Horario</h4>
+          <ul>
+            <li>Lunes a sábado<br>10:00 a 23:00 hrs.</li>
+            <li>Domingo y festivos<br>12:00 a 23:00 hrs.</li>
+            <li><a href="mailto:contacto@pizzabreak.cl">contacto@pizzabreak.cl</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <span>© 2026 Pizza Break · Los Ángeles, Chile</span>
+        <span>*Ingredientes sujetos a disponibilidad. Imágenes de carácter referencial.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Hoja "¿Desde qué local?" (al tocar un producto en la portada) -->
+  <div class="overlay" id="ov-local" role="dialog" aria-modal="true" aria-labelledby="ol-titulo">
+    <div class="hoja">
+      <button type="button" class="icon-btn hoja__cerrar" data-cerrar aria-label="Cerrar"><span data-icon="x"></span></button>
+      <div class="hoja__prod" id="ol-prod"></div>
+      <h2 id="ol-titulo">¿Desde qué local lo pides?</h2>
+      <div class="tiendas tiendas--hoja" id="ol-tiendas"></div>
+    </div>
+  </div>
+
+  <script src="js/data.js?v=2"></script>
+  <script src="js/illustrations.js?v=2"></script>
+  <script src="js/common.js?v=2"></script>
+  <script src="js/home.js?v=2"></script>
+</body>
+</html>
